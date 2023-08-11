@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Acumin Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1e4c90;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+
+/* register & loging page  */
+#register-login-block{
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 10% auto;
+  align-items: center;
+  max-width: 450px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  max-width: 360px;
+  margin: auto;
+}
+.head-text{
+  text-align: center;
+  margin: 35px 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 500;
+}
+.labels {
+  text-align: left;
+  font-size: 15px;
+  margin: 2px;
+}
+input{
+  height: 30px;
+  padding: 5px 15px;
+  margin: 2px;
+  font-size: 16px;
+  border: solid 2px #d3d3d3;
+  border-radius: 5px;
+  color: #333333;
+}
+#remember-me{
+  height: 18px;
+  width: 18px;
+  border: solid 1px #d3d3d3;
+  margin: 0;
+}
+#remem-me{
+  text-align: left;
+}
+
+/* login & signup button */
+.submit{
+  background-color: #1f4c90;
+  color: white;
+  height: 50px;
+  border: solid 1px #1f4c90;
+  border-radius: 8px;
+}
+.submit:hover{
+  background-color: #284876;
+  color: white;
+  border: solid 2px #284876;
+  cursor: pointer;
+  box-shadow: 0 0 5px #333333;
+}
+
+/* footer text& link  */
+.footer-text{
+  margin: 40px 0 20px;
+  text-align: center;
+}
+.footer-link{
+  color: #1f4c90;
+  text-decoration: none;
+}
+
+/* subs-plan selection */
+#sub-plans-body{
+  background-color: white;
+  margin: -150px 0;
+  padding: 150px 0;
+}
+.sub-plans{
+  background-color: white;
+  margin: 0;
+}
+#choose-plan {
+  margin: 60px 2px 20px;
+  font-size:30px;
+  font-weight: 600;
+}
+
+/* toggle slider  */
+.pricing-toggle {
+  background-color: #1f4c90;
+  padding: 14px 5px;
+  border-radius: 30px;
+  display: inline-block
+}
+.pricing-toggle [name="pricing"] {
+  display: none;
+}
+.pricing-toggle input[type="radio"]+label {
+  background-color: #1f4c90;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+.pricing-toggle input[type="radio"]:checked+label {
+  background-color: white;
+  color: #1f4c90;
+}
+
+/* table styling */
+table {
+  margin: auto;  
+}
+th{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+td{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.table-row-heading{
+  text-align: left;
+  width: 360px;
+}
+#p-toggle{
+  padding: 20px 10px;
+}
+.table-col-heading{
+  background-color: #1e4c90;
+  color: white;
+  min-width: 90px;
+  max-width: 90px;
+  height: 90px;
+}
+
+/* plan selection radio buttons */
+.table-col-heading [name="plan-selection"] {
+  display: none;
+}
+.table-col-heading, .table-col-heading input[type="radio"]+label{
+  background-color: #1f4c90;
+  cursor: pointer;
+  user-select: none;
+}
+.table-col-heading input[type="radio"]:checked + label{
+  cursor: pointer;
+  background-color: #1f4c90;
+  color: white;
+  border: solid 2px #1f4c90;
+  border-radius: 5px;
+  box-shadow: 0 0 20px white;
+  text-shadow: 0 0 10px rgb(162, 162, 162);
+}
+
+/* table border */
+.table-top-border{
+  border-top: solid 2px #cbcbcb;
+}
+.devices {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* plan selection button */
+#plan-sel-next{
+  margin: 10px auto;
+  text-align: center;
+  width: 450px;
+  height: 60px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#error-page{
+  background-color: white;
+  margin: 50px;
+  padding: 50px;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+#er-img{
+  float: right;
+  height: 60vh;
+  position: relative;
+}
+#er-link{
+  text-decoration: none;
+  background-color: #1e4c90;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 8px;
+}
+#er-link:hover{
+  background-color: #284876;
+  color: white;
+  border: solid 2px #284876;
+  cursor: pointer;
+  box-shadow: 0 0 5px #333333;
+}
